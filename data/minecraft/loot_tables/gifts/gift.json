@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "minecraft:gifts/sea",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:gifts/redstone",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:gifts/plains",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:gifts/miner",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:gifts/forest",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:gifts/farmer",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:gifts/explorer",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:gifts/builder",
+          "weight": 10
+        }
+      ],
+      "conditions": [
+        {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "nbt": "{playerGameType:0}",
+                "effects": {}
+              }
+            },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "killer_player",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "item": "minecraft:shears"
+                }
+              }
+            }
+            }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{Tags:[\"spawn_CMAS\",\"spawn_CMAS_gift\"]},display:{Name:\"{\\\"text\\\":\\\"Christmas Gift\\\",\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014006,gift1:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "item": "minecraft:shears"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "nbt": "{playerGameType:0}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+##############################################################################################################
+# Author: BronGhast014
+# Date: 9/2019
+# Description: Custom Crafting
+################################################################################################################
+
+execute as @e[tag=craftingStand,scores={CMAS_tableUsed=0}] at @s if block ~ ~ ~ chest{Items:[{Slot:2b,id:"minecraft:spruce_leaves"},{Slot:10b,id:"minecraft:spruce_leaves"},{Slot:11b,id:"minecraft:sweet_berries"},{Slot:12b,id:"minecraft:spruce_leaves"},{Slot:20b,id:"minecraft:spruce_leaves"}]} unless block ~ ~ ~ chest{Items:[{Slot:15b}]} run function cmas:crafting/recipes/wreath/result1
+execute as @e[tag=craftingStand,scores={CMAS_tableUsed=13}] at @s if block ~ ~ ~ chest{Items:[{Slot:2b,id:"minecraft:spruce_leaves"},{Slot:10b,id:"minecraft:spruce_leaves"},{Slot:11b,id:"minecraft:sweet_berries"},{Slot:12b,id:"minecraft:spruce_leaves"},{Slot:20b,id:"minecraft:spruce_leaves"}]} unless block ~ ~ ~ chest{Items:[{Slot:15b,id:"minecraft:red_dye",tag:{display:{Name:"{\"text\":\"Christmas Wreath\",\"color\":\"dark_green\"}"},HideFlags:38,CustomModelData:4014004,wreath:1b}}]} run function cmas:crafting/recipes/wreath/result2
+execute as @e[tag=craftingStand,scores={CMAS_tableUsed=13}] at @s unless block ~ ~ ~ chest{Items:[{Slot:2b,id:"minecraft:spruce_leaves"},{Slot:10b,id:"minecraft:spruce_leaves"},{Slot:11b,id:"minecraft:sweet_berries"},{Slot:12b,id:"minecraft:spruce_leaves"},{Slot:20b,id:"minecraft:spruce_leaves"}]} if block ~ ~ ~ chest{Items:[{Slot:15b,id:"minecraft:red_dye",tag:{display:{Name:"{\"text\":\"Christmas Wreath\",\"color\":\"dark_green\"}"},HideFlags:38,CustomModelData:4014004,wreath:1b}}]} run function cmas:crafting/recipes/wreath/result3
+execute as @e[tag=craftingStand,scores={CMAS_tableSlot=6..}] at @s if block ~ ~ ~ chest{Items:[{Slot:15b,id:"minecraft:red_dye",tag:{display:{Name:"{\"text\":\"Christmas Wreath\",\"color\":\"dark_green\"}"},HideFlags:38,CustomModelData:4014004,wreath:1b}}]} run function cmas:crafting/recipes/wreath/result3
