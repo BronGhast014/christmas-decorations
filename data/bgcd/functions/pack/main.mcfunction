@@ -4,23 +4,23 @@
 # Copyright November / 2019
 ################################################################################
 
-execute as @a[scores={CMAS_food=1..}] at @s run function cmas:items/use
-scoreboard players set @a[scores={CMAS_food=1..}] CMAS_food 0
+execute as @a[scores={BGCD_food=1..}] at @s run function bgcd:items/use
+scoreboard players set @a[scores={BGCD_food=1..}] BGCD_food 0
 
-function cmas:items/remove
+function bgcd:items/remove
 
-execute as @a run function cmas:ray/get_rot
+execute as @a run function bgcd:ray/get_rot
 
-execute as @a[scores={CMAS_vClick=1..}] at @s run function cmas:ray/cast
-execute as @a[scores={CMAS_rClick=1..}] at @s run function cmas:ray/cast
+execute as @a[scores={BGCD_vClick=1..}] at @s run function bgcd:ray/cast
+execute as @a[scores={BGCD_rClick=1..}] at @s run function bgcd:ray/cast
 
-function cmas:items/place
+function bgcd:items/place
 
-execute as @e[tag=craftingStand] at @s run function cmas:crafting/run
-# execute as @e[tag=raindeer] run function cmas:items/raindeer
+execute as @e[tag=craftingStand] at @s run function bgcd:crafting/run
+# execute as @e[tag=raindeer] run function bgcd:items/raindeer
 execute as @e[tag=CmasItem] run effect give @s invisibility 10 10 true
 
-scoreboard players set @a[scores={CMAS_item=1..}] CMAS_item 0
-scoreboard players set @a[scores={CMAS_rClick=1..}] CMAS_rClick 0
-scoreboard players set @a[scores={CMAS_vClick=1..}] CMAS_vClick 0
-execute as @a run function cmas:items/get_data
+scoreboard players set @a[scores={BGCD_item=1..}] BGCD_item 0
+scoreboard players set @a[scores={BGCD_rClick=1..}] BGCD_rClick 0
+scoreboard players set @a[scores={BGCD_vClick=1..}] BGCD_vClick 0
+execute as @a run function bgcd:items/get_data

@@ -5,4 +5,4 @@
 ################################################################################################################
 
 replaceitem block ~ ~ ~ container.15 minecraft:air
-scoreboard players set @s CMAS_tableUsed 0
+scoreboard players set @s BGCD_tableUsed 0

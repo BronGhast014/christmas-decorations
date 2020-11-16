@@ -4,21 +4,21 @@
 # Copyright November / 2019
 ################################################################################
 
-scoreboard objectives remove CMAS_tableSlot
-scoreboard objectives remove CMAS_tableUsed
+scoreboard objectives remove BGCD_tableSlot
+scoreboard objectives remove BGCD_tableUsed
 
-scoreboard objectives remove CMAS_rayCount
-scoreboard objectives remove CMAS_vClick
-scoreboard objectives remove CMAS_rClick
-scoreboard objectives remove CMAS_food
-scoreboard objectives remove CMAS_item
-scoreboard objectives remove CMAS_direction
-scoreboard objectives remove CMAS_rnd
+scoreboard objectives remove BGCD_rayCount
+scoreboard objectives remove BGCD_vClick
+scoreboard objectives remove BGCD_rClick
+scoreboard objectives remove BGCD_food
+scoreboard objectives remove BGCD_item
+scoreboard objectives remove BGCD_direction
+scoreboard objectives remove BGCD_rnd
 
-scoreboard objectives remove CMAS_installed
+scoreboard objectives remove BGCD_installed
 
-kill @e[tag=CMAS_item]
-kill @e[tag=CMAS_itemF]
+kill @e[tag=BGCD_item]
+kill @e[tag=BGCD_itemF]
 kill @e[tag=CmasItem]
 
 tellraw @a {"text":"Uninstalled!","color":"dark_red"}

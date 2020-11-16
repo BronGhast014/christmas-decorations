@@ -4,5 +4,5 @@
 # Description: Custom Crafting
 ################################################################################################################
 
-function cmas:crafting/empty
-scoreboard players set @s CMAS_tableUsed 0
+function bgcd:crafting/empty
+scoreboard players set @s BGCD_tableUsed 0

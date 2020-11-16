@@ -5,4 +5,4 @@
 ################################################################################################################
 
 replaceitem block ~ ~ ~ container.15 minecraft:red_dye{display:{Name:"{\"text\":\"Green Stocking\",\"color\":\"dark_green\"}"},HideFlags:38,CustomModelData:4014002,wcrafted:1b,stocking2:1b} 1
-scoreboard players set @s CMAS_tableUsed 5
+scoreboard players set @s BGCD_tableUsed 5

@@ -10,21 +10,21 @@ execute unless block ~ ~ ~ minecraft:chest run kill @e[type=item,nbt={Item:{tag:
 execute unless block ~ ~ ~ minecraft:chest run kill @s
 execute if block ~ ~ ~ chest[type=single] run setblock ~ ~ ~ chest[type=left]
 
-function cmas:crafting/count
-function cmas:crafting/lock
+function bgcd:crafting/count
+function bgcd:crafting/lock
 
-function cmas:crafting/recipes/candy_cane/craft
-function cmas:crafting/recipes/decorations/craft
-function cmas:crafting/recipes/garland/craft
-function cmas:crafting/recipes/gift/craft
-function cmas:crafting/recipes/ginger_bread/craft
-function cmas:crafting/recipes/green_stocking/craft
-function cmas:crafting/recipes/hot_chocolate/craft
-function cmas:crafting/recipes/mini_tree/craft
-function cmas:crafting/recipes/red_stocking/craft
-function cmas:crafting/recipes/snowman/craft
-# function cmas:crafting/recipes/tray/craft
-function cmas:crafting/recipes/tree/craft
-function cmas:crafting/recipes/trophy/craft
-function cmas:crafting/recipes/wreath/craft
-function cmas:crafting/recipes/wrench/craft
+function bgcd:crafting/recipes/candy_cane/craft
+function bgcd:crafting/recipes/decorations/craft
+function bgcd:crafting/recipes/garland/craft
+function bgcd:crafting/recipes/gift/craft
+function bgcd:crafting/recipes/ginger_bread/craft
+function bgcd:crafting/recipes/green_stocking/craft
+function bgcd:crafting/recipes/hot_chocolate/craft
+function bgcd:crafting/recipes/mini_tree/craft
+function bgcd:crafting/recipes/red_stocking/craft
+function bgcd:crafting/recipes/snowman/craft
+# function bgcd:crafting/recipes/tray/craft
+function bgcd:crafting/recipes/tree/craft
+function bgcd:crafting/recipes/trophy/craft
+function bgcd:crafting/recipes/wreath/craft
+function bgcd:crafting/recipes/wrench/craft

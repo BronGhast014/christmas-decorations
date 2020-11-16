@@ -3,8 +3,8 @@
   "values": [
 	"minecraft:air",
 	"minecraft:water",
-	"#cmas:plants",
-	"#cmas:redstone",
+	"#bgcd:plants",
+	"#bgcd:redstone",
 	"#minecraft:buttons",
 	"#minecraft:banners",
 	"#minecraft:carpets",

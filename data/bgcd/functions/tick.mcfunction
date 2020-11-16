@@ -4,4 +4,4 @@
 # Copyright: October / 2020
 ################################################################################
 
-execute if score bghs:global BGHS_installed matches 1.. run function bghs:pack/main
+execute if score bgcd:global BGHS_installed matches 1.. run function bgcd:pack/main

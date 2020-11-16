@@ -4,5 +4,5 @@
 # Copyright November / 2019
 ################################################################################
 
-scoreboard players set @s CMAS_rayCount 0
-execute at @s positioned ~ ~1.5 ~ run function cmas:ray/loop
+scoreboard players set @s BGCD_rayCount 0
+execute at @s positioned ~ ~1.5 ~ run function bgcd:ray/loop

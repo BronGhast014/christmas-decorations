@@ -11,4 +11,4 @@ tellraw @a {"text":"Reloaded!","color":"green"}
 scoreboard objectives add BGHS_installed dummy
 
 # install pack if not already installed
-execute unless score bghs:global BGHS_installed matches 1 run function bghs:pack/install
+execute unless score bgcd:global BGHS_installed matches 1 run function bgcd:pack/install

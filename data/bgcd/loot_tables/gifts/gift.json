@@ -5,42 +5,42 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "minecraft:gifts/sea",
+          "name": "bgcd:gifts/sea",
           "weight": 10
         },
         {
           "type": "loot_table",
-          "name": "minecraft:gifts/redstone",
+          "name": "bgcd:gifts/redstone",
           "weight": 10
         },
         {
           "type": "loot_table",
-          "name": "minecraft:gifts/plains",
+          "name": "bgcd:gifts/plains",
           "weight": 10
         },
         {
           "type": "loot_table",
-          "name": "minecraft:gifts/miner",
+          "name": "bgcd:gifts/miner",
           "weight": 10
         },
         {
           "type": "loot_table",
-          "name": "minecraft:gifts/forest",
+          "name": "bgcd:gifts/forest",
           "weight": 10
         },
         {
           "type": "loot_table",
-          "name": "minecraft:gifts/farmer",
+          "name": "bgcd:gifts/farmer",
           "weight": 10
         },
         {
           "type": "loot_table",
-          "name": "minecraft:gifts/explorer",
+          "name": "bgcd:gifts/explorer",
           "weight": 10
         },
         {
           "type": "loot_table",
-          "name": "minecraft:gifts/builder",
+          "name": "bgcd:gifts/builder",
           "weight": 10
         }
       ],
@@ -78,7 +78,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{Tags:[\"spawn_CMAS\",\"spawn_CMAS_gift\"]},display:{Name:\"{\\\"text\\\":\\\"Christmas Gift\\\",\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014006,gift1:1b}"
+              "tag": "{EntityTag:{Tags:[\"spawn_BGCD\",\"spawn_BGCD_gift\"]},display:{Name:\"{\\\"text\\\":\\\"Christmas Gift\\\",\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014006,gift1:1b}"
             }
           ],
           "conditions": [
