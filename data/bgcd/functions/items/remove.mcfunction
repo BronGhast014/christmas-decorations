@@ -1,7 +1,7 @@
 ################################################################################
-# Author: BronGhast014
-# Version: 1.14.x
-# Copyright November / 2019
+# Authors: BronGhast014
+# Version: 1.16.x +
+# Copyright November / 2020
 ################################################################################
 
 execute as @e[tag=BGCD_gift_model] at @s unless entity @e[type=slime,tag=BGCD_gift,distance=..0.2] run particle minecraft:firework ~ ~ ~ 0.1 0.2 0.1 0.1 25

@@ -1,7 +1,7 @@
 ##############################################################################################################
-# Author: BronGhast014
-# Date: 3/14/18
-# Description:
+# Authors: BronGhast014
+# Version: 1.16.x +
+# Copyright November / 2020
 ################################################################################################################
 
 execute unless block ~ ~ ~ minecraft:chest if entity @a[gamemode=survival,distance=..7] run summon item ~ ~ ~ {Motion:[0.0,0.2,0.0],Item:{id:"minecraft:structure_void",Count:1b}}

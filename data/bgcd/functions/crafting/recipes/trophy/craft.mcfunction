@@ -1,7 +1,7 @@
 ##############################################################################################################
-# Author: BronGhast014
-# Date: 9/2019
-# Description: Custom Crafting
+# Authors: BronGhast014
+# Version: 1.16.x +
+# Copyright November / 2020
 ################################################################################################################
 
 execute as @e[tag=craftingStand,scores={BGCD_tableUsed=0}] at @s if block ~ ~ ~ chest{Items:[{Slot:1b,id:"minecraft:bone"},{Slot:3b,id:"minecraft:bone"},{Slot:11b,id:"minecraft:leather"},{Slot:20b,id:"minecraft:stick"}]} unless block ~ ~ ~ chest{Items:[{Slot:15b}]} run function bgcd:crafting/recipes/trophy/result1

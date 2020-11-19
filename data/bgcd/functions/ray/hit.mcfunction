@@ -1,7 +1,7 @@
 ################################################################################
-# Author: BronGhast014
-# Version: 1.14.x
-# Copyright November / 2019
+# Authors: BronGhast014
+# Version: 1.16.x +
+# Copyright November / 2020
 ################################################################################
 
 execute as @s[scores={BGCD_item=1,BGCD_direction=1}] positioned ^ ^ ^ run summon armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invisible:1b,Tags:["place_mug","rot1"]}

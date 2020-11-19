@@ -1,7 +1,7 @@
 ##############################################################################################################
-# Author: BronGhast014
-# Date: 3/14/18
-# Description:
+# Authors: BronGhast014
+# Version: 1.16.x +
+# Copyright November / 2020
 ################################################################################################################
 
 execute unless entity @e[tag=craftingStand,distance=..1] run setblock ~ ~ ~ chest[type=left]{CustomName:"{\"text\":\"Workbench\"}"}

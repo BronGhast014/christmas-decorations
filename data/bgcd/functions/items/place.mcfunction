@@ -1,7 +1,7 @@
 ################################################################################
-# Author: BronGhast014
-# Version: 1.14.x
-# Copyright November / 2019
+# Authors: BronGhast014
+# Version: 1.16.x +
+# Copyright November / 2020
 ################################################################################
 
 execute at @e[tag=spawn_BGCD_tree] run summon villager ~ ~ ~ {Silent:1b,DeathLootTable:"minecraft:bgcd/tree",NoAI:1b,Health:2f,Tags:["BGCD_tree","CmasItem","BGCD_rotatable","BGCD_rotatable2"],ArmorItems:[{},{},{},{id:"minecraft:rabbit_spawn_egg",Count:1b,tag:{HideFlags:38,CustomModelData:4014001}}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:99999,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:2}]}

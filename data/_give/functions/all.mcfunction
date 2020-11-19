@@ -1,7 +1,7 @@
 ################################################################################
-# Author: BronGhast014
-# Version: 1.14.x
-# Copyright November / 2019
+# Authors: BronGhast014
+# Version: 1.16.x +
+# Copyright November / 2020
 ################################################################################
 
 function _give:candy_cane

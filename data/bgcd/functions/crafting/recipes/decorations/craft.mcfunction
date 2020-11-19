@@ -1,7 +1,7 @@
 ##############################################################################################################
-# Author: BronGhast014
-# Date: 9/2019
-# Description: Custom Crafting
+# Authors: BronGhast014
+# Version: 1.16.x +
+# Copyright November / 2020
 ################################################################################################################
 
 execute as @e[tag=craftingStand,scores={BGCD_tableUsed=0,BGCD_tableSlot=5}] at @s if block ~ ~ ~ chest{Items:[{id:"minecraft:red_dye"},{id:"minecraft:gold_nugget"},{id:"minecraft:iron_nugget"},{id:"minecraft:gold_nugget"},{id:"minecraft:iron_nugget"},{id:"minecraft:gold_nugget"},{id:"minecraft:iron_nugget"}]} unless block ~ ~ ~ chest{Items:[{Slot:15b}]} run function bgcd:crafting/recipes/decorations/result1
