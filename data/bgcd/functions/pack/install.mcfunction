@@ -17,4 +17,6 @@ scoreboard objectives add BGCD_rnd dummy
 
 # advancement grant @a only bgcd:root
 
-tellraw @a [{"text":"BronGhast014's Christmas datapack for 1.16+ has been installed!\nto uninstall just run the function: ","color":"dark_green"},{"text":"bgcd:pack/uninstall","color":"green","clickEvent":{"action":"run_command","value":"/function bgcd:pack/uninstall"}}]
+scoreboard players set bgcd:global BGCD_installed 1
+
+tellraw @a [{"text":"Christmas Decorations by BronGhast014 has been installed!","color":"green"},{"text":"\nTo uninstall the pack run the function: ","color":"white"},{"text":"bgcd:pack/uninstall","color":"red","clickEvent":{"action":"run_command","value":"/function bgcd:pack/uninstall"}}]
