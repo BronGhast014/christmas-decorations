@@ -15,10 +15,6 @@ scoreboard objectives add BGCD_item dummy
 scoreboard objectives add BGCD_direction dummy
 scoreboard objectives add BGCD_rnd dummy
 
-scoreboard objectives add BGCD_installed dummy
-
-execute as @a run execute store success score @s BGCD_installed run scoreboard players get @s BGCD_installed
-execute as @a[scores={BGCD_installed=0}] run tellraw @a ["",{"text":"BronGhast014's Christmas datapack has been installed!\nto uninstall just run the function: ","color":"dark_green"},{"text":"bgcd:uninstall","color":"green","clickEvent":{"action":"run_command","value":"/function bgcd:uninstall"}}]
-execute as @a[scores={BGCD_installed=1..}] run tellraw @a {"text":"Reloaded!","color":"dark_green"}
-
 # advancement grant @a only bgcd:root
+
+tellraw @a [{"text":"BronGhast014's Christmas datapack for 1.16+ has been installed!\nto uninstall just run the function: ","color":"dark_green"},{"text":"bgcd:pack/uninstall","color":"green","clickEvent":{"action":"run_command","value":"/function bgcd:pack/uninstall"}}]
