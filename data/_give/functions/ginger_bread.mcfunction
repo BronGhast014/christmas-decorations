@@ -4,4 +4,4 @@
 # Copyright November / 2020
 ################################################################################
 
-give @s minecraft:tropical_fish{display:{Name:"{\"text\":\"Ginger Bread Man\",\"color\":\"gold\"}"},HideFlags:38,CustomModelData:4014001,ginger_bread:1b} 16
+loot give @s loot bgcd:items/ginger_bread

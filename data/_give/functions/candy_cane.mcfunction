@@ -4,4 +4,4 @@
 # Copyright November / 2020
 ################################################################################
 
-give @s minecraft:tropical_fish{display:{Name:"{\"text\":\"Candy Cane\",\"color\":\"dark_red\"}"},HideFlags:38,CustomModelData:4014002,candy:1b} 16
+loot give @s loot bgcd:items/candy_cane

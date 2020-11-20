@@ -4,11 +4,11 @@
 # Copyright November / 2020
 ################################################################################
 
-execute at @e[tag=spawn_BGCD_tree] run summon villager ~ ~ ~ {Silent:1b,DeathLootTable:"minecraft:bgcd/tree",NoAI:1b,Health:2f,Tags:["BGCD_tree","CmasItem","BGCD_rotatable","BGCD_rotatable2"],ArmorItems:[{},{},{},{id:"minecraft:rabbit_spawn_egg",Count:1b,tag:{HideFlags:38,CustomModelData:4014001}}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:99999,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:2}]}
-execute at @e[tag=spawn_BGCD_snowman] run summon villager ~ ~ ~ {Silent:1b,DeathLootTable:"minecraft:bgcd/snowman",NoAI:1b,Health:2f,Tags:["BGCD_tree","CmasItem","BGCD_rotatable","BGCD_rotatable2"],ArmorItems:[{},{},{},{id:"minecraft:rabbit_spawn_egg",Count:1b,tag:{HideFlags:38,CustomModelData:4014003}}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:99999,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:2}]}
+execute at @e[tag=spawn_BGCD_tree] run summon villager ~ ~ ~ {Silent:1b,DeathLootTable:"bgcd:blocks/tree",NoAI:1b,Health:2f,Tags:["BGCD_tree","CmasItem","BGCD_rotatable","BGCD_rotatable2"],ArmorItems:[{},{},{},{id:"minecraft:rabbit_spawn_egg",Count:1b,tag:{HideFlags:38,CustomModelData:4014001}}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:99999,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:2}]}
+execute at @e[tag=spawn_BGCD_snowman] run summon villager ~ ~ ~ {Silent:1b,DeathLootTable:"bgcd:blocks/snowman",NoAI:1b,Health:2f,Tags:["BGCD_tree","CmasItem","BGCD_rotatable","BGCD_rotatable2"],ArmorItems:[{},{},{},{id:"minecraft:rabbit_spawn_egg",Count:1b,tag:{HideFlags:38,CustomModelData:4014003}}],ArmorDropChances:[0.0F,0.0F,0.0F,0.0F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:99999,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:2}]}
 execute as @e[tag=spawn_BGCD_gift] at @s run function bgcd:items/place_gift
 
-execute as @e[tag=BGCD_tree] at @s if entity @e[type=item,nbt={Item:{Count:1b,tag:{treeDecor:1b}}},distance=..1] run data merge entity @s {DeathLootTable:"minecraft:bgcd/tree_decorated",ArmorItems:[{},{},{},{id:"minecraft:rabbit_spawn_egg",Count:1b,tag:{HideFlags:38,CustomModelData:4014002}}]}
+execute as @e[tag=BGCD_tree] at @s if entity @e[type=item,nbt={Item:{Count:1b,tag:{treeDecor:1b}}},distance=..1] run data merge entity @s {DeathLootTable:"bgcd:blocks/tree_decorated",ArmorItems:[{},{},{},{id:"minecraft:rabbit_spawn_egg",Count:1b,tag:{HideFlags:38,CustomModelData:4014002}}]}
 execute at @e[tag=BGCD_tree] as @e[limit=1,sort=nearest,type=item,nbt={Item:{Count:1b,tag:{treeDecor:1b}}},distance=..1] run kill @s
 
 tp @e[tag=spawn_BGCD] ~ ~-600 ~

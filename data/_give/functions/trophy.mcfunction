@@ -4,4 +4,4 @@
 # Copyright November / 2020
 ################################################################################
 
-give @s minecraft:red_dye{display:{Name:"{\"text\":\"Hunting Trophy\",\"color\":\"gold\"}"},HideFlags:38,CustomModelData:4014006,trophy:1b} 1
+loot give @s loot bgcd:items/trophy

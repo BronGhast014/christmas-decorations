@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Ginger Bread Man\\\",\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014001,ginger_bread:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

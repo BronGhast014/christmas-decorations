@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Hunting Trophy\\\",\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014006,trophy:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

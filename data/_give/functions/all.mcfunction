@@ -12,7 +12,6 @@ function _give:snowman
 function _give:hot_chocolate
 function _give:gift
 function _give:mini_tree
-# function give:tray
 function _give:garland
 function _give:wreath
 function _give:green_stocking
