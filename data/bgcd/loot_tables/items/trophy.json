@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Hunting Trophy\\\",\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014006,trophy:1b}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.trophy\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014006,trophy:1b}"
             }
           ]
         }

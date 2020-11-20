@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{Tags:[\"spawn_BGCD\",\"spawn_BGCD_snowman\"]},display:{Name:\"{\\\"text\\\":\\\"Snow Man\\\",\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014003,snowman:1b}"
+              "tag": "{EntityTag:{Tags:[\"spawn_BGCD\",\"spawn_BGCD_snowman\"]},display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.snowMan\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014003,snowman:1b}"
             }
           ]
         }

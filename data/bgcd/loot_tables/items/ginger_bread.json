@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"text\\\":\\\"Ginger Bread Man\\\",\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014001,ginger_bread:1b}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.gingerBread\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014001,ginger_bread:1b}"
             }
           ]
         }
