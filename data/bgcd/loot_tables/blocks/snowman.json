@@ -4,14 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:rabbit_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{Tags:[\"spawn_BGCD\",\"spawn_BGCD_snowman\"]},display:{Name:\"{\\\"text\\\":\\\"Snow Man\\\",\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014003,snowman:1b}"
-            }
-          ],
+          "type": "loot_table",
+          "name": "bgcd:items/snowman",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",

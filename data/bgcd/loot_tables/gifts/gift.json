@@ -73,14 +73,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:rabbit_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{Tags:[\"spawn_BGCD\",\"spawn_BGCD_gift\"]},display:{Name:\"{\\\"text\\\":\\\"Christmas Gift\\\",\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014006,gift1:1b}"
-            }
-          ],
+          "type": "loot_table",
+          "name": "bgcd:items/gift",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
