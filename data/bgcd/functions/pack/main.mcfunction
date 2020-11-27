@@ -16,7 +16,7 @@ execute as @a[scores={BGCD_rClick=1..}] at @s run function bgcd:ray/cast
 
 function bgcd:items/place
 
-execute as @e[tag=craftingStand,type=minecraft:armor_stand] at @s run function bgcd:crafting/run
+execute as @e[tag=craftingStand,type=minecraft:armor_stand] at @s run function bgcd:crafting/table/run
 # execute as @e[tag=raindeer] run function bgcd:items/raindeer
 execute as @e[tag=CmasItem,type=minecraft:armor_stand] run effect give @s invisibility 10 10 true
 
