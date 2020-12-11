@@ -1,7 +1,15 @@
 ################################################################################
 # Authors: BronGhast014
-# Date: 10/5/18
+# Version: 1.16.2 +
+# Copyright: July / 2020
+# Description: translates the executer's 16 axis score into a rotation
 ################################################################################
+
+#note: this also inverts the values for athstetic placement
+
+# clamp score
+scoreboard players set @s[scores={BGCD_direction=17..}] BGCD_direction 1
+scoreboard players set @s[scores={BGCD_direction=..0}] BGCD_direction 16
 
 data merge entity @s[scores={BGCD_direction=9}] {Rotation:[0F,0F]}
 data merge entity @s[scores={BGCD_direction=10}] {Rotation:[22.5F,0F]}
