@@ -11,4 +11,4 @@ scoreboard players set @s[nbt={SelectedItem:{tag:{miniTree:1b}}}] BGCD_item 3
 scoreboard players set @s[nbt={SelectedItem:{tag:{ginger_bread:1b}}}] BGCD_item 6
 scoreboard players set @s[nbt={SelectedItem:{tag:{candy:1b}}}] BGCD_item 7
 
-scoreboard players set @s[nbt={SelectedItem:{tag:{bgcdTool:1b}}}] BGCD_item 11
+scoreboard players set @s[nbt={SelectedItem:{tag:{cmasTool:1b}}}] BGCD_item 11
