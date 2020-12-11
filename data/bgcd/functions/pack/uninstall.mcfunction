@@ -18,8 +18,7 @@ scoreboard objectives remove BGCD_rnd
 scoreboard objectives remove BGCD_installed
 
 kill @e[tag=BGCD_item]
-kill @e[tag=BGCD_itemF]
-kill @e[tag=CmasItem]
+kill @e[tag=BGCD_FramedItem]
 
 tellraw @a {"text":"Uninstalled!","color":"dark_red"}
 tellraw @a {"text":"To complete the process please remove the datapack and resources.zip from your world folder","color":"yellow"}
