@@ -4,6 +4,9 @@
 # Copyright November / 2020
 ################################################################################
 
+scoreboard objectives add BGCD_frameState dummy
+scoreboard objectives add BGCD_frameLock dummy
+
 scoreboard objectives add BGCD_tableSlot dummy
 scoreboard objectives add BGCD_tableUsed dummy
 
