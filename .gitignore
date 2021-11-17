@@ -14,7 +14,8 @@ region/
 level.dat
 level.dat_old
 
+# World icon
 icon.png
 
-# lockfile
-*session.lock
+# World lockfile
+session.lock
