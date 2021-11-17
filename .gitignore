@@ -1,0 +1,20 @@
+# This .gitignore file should be placed at the root of your project directory
+
+# Player data
+advancements/
+data/
+playerdata/
+stats/
+
+# World data
+DIM1/
+DIM-1/
+entities/
+region/
+level.dat
+level.dat_old
+
+icon.png
+
+# lockfile
+*session.lock
