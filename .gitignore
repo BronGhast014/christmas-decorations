@@ -1,8 +1,8 @@
 # This .gitignore file should be placed at the root of your project directory
 
 # Player data
-advancements/
-data/
+/advancements/
+/data/
 playerdata/
 stats/
 

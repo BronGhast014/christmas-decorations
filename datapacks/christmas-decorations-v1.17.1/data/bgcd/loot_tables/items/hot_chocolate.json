@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.coco\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014001,mug:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

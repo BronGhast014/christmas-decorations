@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+	"A": {
+      "item": "minecraft:leather"
+    },
+	"B": {
+      "item": "minecraft:wooden_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:structure_void"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.candyCane\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014002,candy:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

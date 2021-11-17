@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.stocking.green\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_green\\\"}\"},HideFlags:38,CustomModelData:4014002,stocking2:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

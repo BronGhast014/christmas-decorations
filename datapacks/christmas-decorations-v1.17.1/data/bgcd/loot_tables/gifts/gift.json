@@ -1,0 +1,104 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bgcd:gifts/sea",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "bgcd:gifts/redstone",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "bgcd:gifts/plains",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "bgcd:gifts/miner",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "bgcd:gifts/forest",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "bgcd:gifts/farmer",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "bgcd:gifts/explorer",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "bgcd:gifts/builder",
+          "weight": 10
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer_player",
+          "predicate": {
+            "nbt": "{playerGameType:0}",
+            "effects": {}
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "killer_player",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "item": "minecraft:shears"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bgcd:items/gift",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "nbt": "{playerGameType:0}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
