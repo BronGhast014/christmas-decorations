@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 scoreboard players add @e[tag=BGCD_rotatable,limit=1,sort=nearest,distance=..0.5] BGCD_direction 1

@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 summon slime ~ ~ ~ {DeathLootTable:"bgcd:gifts/gift",NoAI:1b,Health:1f,Size:0,Tags:["BGCD_gift","BGCD_item"],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:99999,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:1}]}

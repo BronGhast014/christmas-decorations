@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
 # Version: 1.16.2 +
-# Copyright: July / 2020
+# Copyright: November / 2021
 # Description: translates the executer's 16 axis score into a rotation
 ################################################################################
 

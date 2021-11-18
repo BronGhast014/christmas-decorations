@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 scoreboard objectives add BGCD_frameState dummy
@@ -22,4 +22,4 @@ scoreboard objectives add BGCD_rnd dummy
 
 scoreboard players set bgcd:global BGCD_installed 1
 
-tellraw @a [{"text":"Christmas Decorations by BronGhast014 has been installed!","color":"green"},{"text":"\nTo uninstall the pack run the function: ","color":"white"},{"text":"bgcd:pack/uninstall","color":"red","clickEvent":{"action":"run_command","value":"/function bgcd:pack/uninstall"}}]
+tellraw @a [{"text":"Christmas Decorations v1.17 by BronGhast014 has been installed!","color":"green"},{"text":"\nTo uninstall the pack run the function: ","color":"white"},{"text":"bgcd:pack/uninstall","color":"red","clickEvent":{"action":"run_command","value":"/function bgcd:pack/uninstall"}}]

@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute as @e[tag=craftingStand,scores={BGCD_tableUsed=0}] at @s if block ~ ~ ~ barrel{Items:[{Slot:1b,id:"minecraft:bone"},{Slot:3b,id:"minecraft:bone"},{Slot:11b,id:"minecraft:leather"},{Slot:20b,id:"minecraft:stick"}]} unless block ~ ~ ~ barrel{Items:[{Slot:15b}]} run function bgcd:crafting/recipes/trophy/set

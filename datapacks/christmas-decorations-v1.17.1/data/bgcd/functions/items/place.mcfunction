@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute as @e[tag=spawn_BGCD_tree] at @s run function bgcd:items/tree/place

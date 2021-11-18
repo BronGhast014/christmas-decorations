@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute if block ~ ~ ~ structure_void run summon leash_knot ~ ~ ~ {Tags:["structure_void_found"]}

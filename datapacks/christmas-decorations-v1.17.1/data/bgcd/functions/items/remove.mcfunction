@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute as @e[type=minecraft:armor_stand,tag=BGCD_gift_model] at @s unless entity @e[type=slime,tag=BGCD_gift,distance=..0.2] run function bgcd:items/gift/remove

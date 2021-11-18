@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute as @s[tag=dirN] if block ~ ~ ~0.5 air if entity @a[gamemode=survival,sort=nearest,distance=..6] run summon item ~ ~ ~ {Item:{id:"minecraft:item_frame",Count:1b}}

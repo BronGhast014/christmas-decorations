@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute as @e[type=minecraft:item_frame,nbt={Facing:2b,Item:{tag:{stocking1:1b}}}] at @s run summon armor_stand ~ ~-0.5 ~ {NoGravity:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["BGCD_FramedItem","stocking1","dirN"],Rotation:[-180F,0F],ArmorItems:[{},{},{},{id:"red_dye",Count:1,tag:{Unbreakable:1b,CustomModelData:4014003}}]}

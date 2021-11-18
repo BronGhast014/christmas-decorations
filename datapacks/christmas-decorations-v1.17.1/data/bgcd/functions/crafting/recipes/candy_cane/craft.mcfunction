@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute as @s[scores={BGCD_tableUsed=0,BGCD_tableSlot=3}] at @s if block ~ ~ ~ barrel{Items:[{id:"minecraft:sugar"},{id:"minecraft:red_dye"},{id:"minecraft:sugar"}]} unless block ~ ~ ~ barrel{Items:[{Slot:15b}]} run function bgcd:crafting/recipes/candy_cane/set

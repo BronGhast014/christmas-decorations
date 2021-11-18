@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute at @s[scores={BGCD_item=6}] run particle minecraft:block minecraft:orange_terracotta ~ ~1 ~ 0.2 0.2 0.2 0 20 force

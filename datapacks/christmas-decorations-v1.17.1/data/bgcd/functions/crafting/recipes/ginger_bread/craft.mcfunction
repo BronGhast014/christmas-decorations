@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.16.x +
-# Copyright November / 2020
+# Version: 1.17.x +
+# Copyright November / 2021
 ################################################################################
 
 execute as @e[tag=craftingStand,scores={BGCD_tableUsed=0,BGCD_tableSlot=3}] at @s if block ~ ~ ~ barrel{Items:[{id:"minecraft:sweet_berries"},{id:"minecraft:wheat"},{id:"minecraft:sugar"}]} unless block ~ ~ ~ barrel{Items:[{Slot:15b}]} run function bgcd:crafting/recipes/ginger_bread/set
