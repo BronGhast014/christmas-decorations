@@ -4,4 +4,4 @@
 # Copyright November / 2021
 ################################################################################
 
-loot give @s loot bgcd:items/hot_chocolate
+loot give @s loot bgcd:items/coco_mug

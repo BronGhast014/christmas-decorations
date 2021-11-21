@@ -4,4 +4,4 @@
 # Copyright November / 2021
 ################################################################################
 
-loot give @s loot bgcd:items/red_stocking
+loot give @s loot bgcd:items/stocking_red

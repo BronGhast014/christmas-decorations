@@ -61,7 +61,9 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "item": "minecraft:shears"
+                  "items": [
+                    "minecraft:shears"
+                  ]
                 }
               }
             }

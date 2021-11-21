@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:rabbit_spawn_egg",
+          "name": "minecraft:polar_bear_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{Tags:[\"spawn_BGCD\",\"spawn_BGCD_gift\"]},display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.gift\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014006,gift1:1b}"
+              "tag": "{EntityTag:{Tags:[\"spawn_BGCD\",\"spawn_BGCD_gift\"]},display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.gift\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014005,gift1:1b}"
             }
           ]
         }

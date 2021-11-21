@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_dye",
+          "name": "minecraft:polar_bear_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.trophy\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014006,trophy:1b}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.trophy\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}\"},HideFlags:38,CustomModelData:4014016,trophy:1b}"
             }
           ]
         }

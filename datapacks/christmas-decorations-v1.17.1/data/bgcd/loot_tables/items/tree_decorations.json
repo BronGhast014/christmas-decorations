@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_dye",
+          "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.tree.decorations\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_green\\\"}\"},HideFlags:38,CustomModelData:4014001,treeDecor:1b}"
+              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.tree.decorations\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_green\\\"}\"},HideFlags:38,CustomModelData:4014002,treeDecor:1b}"
             }
           ]
         }
