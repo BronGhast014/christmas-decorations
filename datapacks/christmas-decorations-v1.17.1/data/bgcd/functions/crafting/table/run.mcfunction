@@ -19,7 +19,6 @@ function bgcd:crafting/recipes/hot_chocolate/craft
 function bgcd:crafting/recipes/mini_tree/craft
 function bgcd:crafting/recipes/red_stocking/craft
 function bgcd:crafting/recipes/snowman/craft
-# function bgcd:crafting/recipes/tray/craft
 function bgcd:crafting/recipes/tree/craft
 function bgcd:crafting/recipes/trophy/craft
 function bgcd:crafting/recipes/wreath/craft

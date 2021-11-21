@@ -6,4 +6,5 @@
 
 execute if entity @a[gamemode=survival,sort=nearest,distance=..6] run loot spawn ~ ~ ~ loot bgcd:items/hot_chocolate
 
+particle block white_concrete ~ ~ ~ 0.1 0.1 0.1 0.0001 15
 kill @s

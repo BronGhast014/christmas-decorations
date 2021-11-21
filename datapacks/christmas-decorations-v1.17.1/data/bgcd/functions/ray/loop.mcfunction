@@ -1,16 +1,20 @@
 ################################################################################
 # Authors: BronGhast014
-# Version: 1.17.x +
-# Copyright November / 2021
+# Version: 1.16.2 +
+# Copyright: November / 2021
+# Discription: moves the ray forward untill it hits a block
 ################################################################################
 
+# add to raycount
 scoreboard players add @s BGCD_rayCount 1
+# see if the ray has hit something
 execute unless block ~ ~ ~ #bgcd:void run scoreboard players set @s BGCD_rayCount 1111
 
-execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=0}] positioned ^ ^ ^-0.1 run function bgcd:ray/place
-execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=1..4}] positioned ^ ^ ^-0.1 run function bgcd:ray/hit
-execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=1..4},gamemode=!creative] run item replace entity @s weapon.mainhand with air
-execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=11..}] positioned ^ ^ ^0.1 run function bgcd:tool/hit
+# if the ray has hit somthing run the approperate hit function
+execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=1}] positioned ^ ^ ^0.1 run function bgcd:items/tool/use
+execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=2}] positioned ^ ^ ^ run function bgcd:crafting/table/find
+execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=5..6}] positioned ^ ^ ^-0.1 run function bgcd:decorations/place
+execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=7..}] positioned ^ ^ ^-0.1 run function bgcd:decorations/place
 
-# execute as @s[scores={BGCD_rayCount=..60}] positioned ^ ^ ^0.1 run particle flame ~ ~ ~ 0 0 0 0 2 force
-execute as @s[scores={BGCD_rayCount=..60}] positioned ^ ^ ^0.1 run function bgcd:ray/loop
+# if the ray hasn't hit somthing loop the function again
+execute as @s[scores={BGCD_rayCount=..70}] positioned ^ ^ ^0.1 run function bgcd:ray/loop

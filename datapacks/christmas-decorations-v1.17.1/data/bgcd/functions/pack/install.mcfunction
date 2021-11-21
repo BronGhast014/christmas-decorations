@@ -13,12 +13,10 @@ scoreboard objectives add BGCD_tableUsed dummy
 scoreboard objectives add BGCD_rayCount dummy
 scoreboard objectives add BGCD_vClick minecraft.used:minecraft.structure_void
 scoreboard objectives add BGCD_rClick minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add BGCD_food minecraft.used:minecraft.tropical_fish
+scoreboard objectives add BGCD_ateItem minecraft.used:minecraft.tropical_fish
 scoreboard objectives add BGCD_item dummy
-scoreboard objectives add BGCD_direction dummy
+scoreboard objectives add BGCD_rot dummy
 scoreboard objectives add BGCD_rnd dummy
-
-# advancement grant @a only bgcd:root
 
 scoreboard players set bgcd:global BGCD_installed 1
 

@@ -12,6 +12,7 @@
 		"minecraft:torch",
 		"#minecraft:signs",
 		"minecraft:flower_pot",
-		"minecraft:ladder"
+		"minecraft:ladder",
+		"minecraft:snow"
 	]
 }
