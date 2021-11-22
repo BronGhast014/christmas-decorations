@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:\"{\\\"translate\\\":\\\"bgcd.item.coco\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_red\\\"}\"},HideFlags:38,CustomModelData:4014003,mug:1b}"
+              "tag": "{display:{Name:'{\"translate\":\"bgcd.item.coco\",\"color\":\"dark_red\",\"italic\":false}'},HideFlags:127,CustomModelData:4014003,mug:1b}"
             }
           ]
         }
