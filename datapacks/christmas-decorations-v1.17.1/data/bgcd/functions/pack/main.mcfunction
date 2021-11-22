@@ -5,15 +5,13 @@
 ################################################################################
 
 # update rotaion of newly placed items
-execute as @e[type=armor_stand,tag=unsetItem,tag=BGCD_item] run function bgcd:set/y_rot
+execute as @e[type=#bgcd:cmas_item,tag=unsetItem,tag=BGCD_item] run function bgcd:set/y_rot
 
 # garbage collection
 execute as @e[type=armor_stand,tag=BGCD_item] run function bgcd:decorations/remove
 
 # item functions
 execute as @e[type=armor_stand,tag=BGCD_item] run effect give @s invisibility 10 10 true
-
-execute as @e[type=rabbit,tag=spawn_BGCD] run function bgcd:decorations/spawn
 
 # crafting
 execute as @e[type=armor_stand,tag=craftingStand] at @s run function bgcd:crafting/table/run

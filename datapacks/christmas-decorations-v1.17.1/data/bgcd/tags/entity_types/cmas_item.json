@@ -3,6 +3,8 @@
   "values": [
 	"minecraft:villager",
 	"minecraft:armor_stand",
+	"minecraft:marker",
+  "minecraft:bee",
   "minecraft:snow_golem"
   ]
 }

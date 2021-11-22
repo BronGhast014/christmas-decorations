@@ -12,3 +12,13 @@ scoreboard players set @s[nbt={SelectedItem:{tag:{candy:1b}}}] BGCD_item 4
 
 scoreboard players set @s[nbt={SelectedItem:{tag:{mug:1b}}}] BGCD_item 5
 scoreboard players set @s[nbt={SelectedItem:{tag:{miniTree:1b}}}] BGCD_item 6
+
+scoreboard players set @s[nbt={SelectedItem:{tag:{tree:1b}}}] BGCD_item 7
+scoreboard players set @s[nbt={SelectedItem:{tag:{treeDecor:1b}}}] BGCD_item 8
+scoreboard players set @s[nbt={SelectedItem:{tag:{garland1:1b}}}] BGCD_item 9
+scoreboard players set @s[nbt={SelectedItem:{tag:{wreath:1b}}}] BGCD_item 10
+scoreboard players set @s[nbt={SelectedItem:{tag:{stocking1:1b}}}] BGCD_item 11
+scoreboard players set @s[nbt={SelectedItem:{tag:{stocking2:1b}}}] BGCD_item 12
+scoreboard players set @s[nbt={SelectedItem:{tag:{gift1:1b}}}] BGCD_item 13
+scoreboard players set @s[nbt={SelectedItem:{tag:{trophy:1b}}}] BGCD_item 14
+scoreboard players set @s[nbt={SelectedItem:{tag:{snowman:1b}}}] BGCD_item 14
