@@ -10,4 +10,4 @@ scoreboard players operation @e[type=snow_golem,tag=unsetItem,distance=..1,limit
 
 playsound block.snow.place block @a ~ ~ ~
 
-tp @e[type=marker,tag=spawn_BGCD,tag=spawn_BGCD_snowman,distance=..1,limit=1,sort=nearest] ~ ~-600 ~
+kill @e[type=marker,tag=spawn_BGCD,tag=spawn_BGCD_snowman,distance=..1,limit=1,sort=nearest]

@@ -12,4 +12,4 @@ execute if entity @s[scores={BGCD_rnd=2}] run summon armor_stand ~ ~ ~ {Small:1b
 execute if entity @s[scores={BGCD_rnd=3}] run summon armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invisible:1b,Tags:["BGCD_gift_model","BGCD_item"],ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:4014007}}]}
 execute if entity @s[scores={BGCD_rnd=4}] run summon armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invisible:1b,Tags:["BGCD_gift_model","BGCD_item"],ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:4014008}}]}
 
-tp @s ~ ~-600 ~
+kill @s

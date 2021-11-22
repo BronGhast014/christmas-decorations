@@ -10,4 +10,4 @@ scoreboard players operation @e[type=villager,tag=unsetItem,distance=..1,limit=1
 
 playsound block.wood.place block @a ~ ~ ~
 
-tp @e[type=marker,tag=spawn_BGCD,tag=spawn_BGCD_tree,distance=..1,limit=1,sort=nearest] ~ ~-600 ~
+kill @e[type=marker,tag=spawn_BGCD,tag=spawn_BGCD_tree,distance=..1,limit=1,sort=nearest]
