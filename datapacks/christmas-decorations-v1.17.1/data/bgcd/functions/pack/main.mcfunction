@@ -12,6 +12,8 @@ execute as @e[type=armor_stand,tag=BGCD_item] run function bgcd:decorations/remo
 
 # item functions
 execute as @e[type=armor_stand,tag=BGCD_item] run effect give @s invisibility 10 10 true
+execute as @e[type=armor_stand,tag=BGCD_needsLight] run data merge entity @s {Fire:9}
+execute as @e[type=villager,tag=BGCD_tree] at @s if entity @e[type=item,nbt={Item:{Count:1b,tag:{treeDecor:1b}}},distance=..1] run function bgcd:decorations/tree/decorate
 
 # crafting
 execute as @e[type=armor_stand,tag=craftingStand] at @s run function bgcd:crafting/table/run
