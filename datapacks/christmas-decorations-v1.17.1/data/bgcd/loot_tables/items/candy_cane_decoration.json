@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polar_bear_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"bgcd.item.candyCane.decoration\",\"color\":\"dark_green\",\"italic\":false}'},HideFlags:127,CustomModelData:4014016,candyDecor:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
