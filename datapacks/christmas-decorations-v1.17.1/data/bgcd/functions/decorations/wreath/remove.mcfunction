@@ -7,4 +7,5 @@
 execute if entity @a[gamemode=survival,sort=nearest,distance=..6] run loot spawn ~ ~ ~ loot bgcd:items/wreath
 
 particle block spruce_leaves ^ ^0.5 ^0.5 0.1 0.2 0.1 0.0001 15
+playsound block.grass.break block @a ~ ~ ~ 1 1
 kill @s

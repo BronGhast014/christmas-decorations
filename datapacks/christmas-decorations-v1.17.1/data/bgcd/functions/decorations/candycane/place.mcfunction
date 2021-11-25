@@ -8,6 +8,6 @@ execute at @e[type=marker,tag=spawn_BGCD,tag=spawn_BGCD_candy_cane,distance=..1,
 
 scoreboard players operation @e[type=villager,tag=unsetItem,distance=..1,limit=1,sort=nearest] BGCD_rot = @s BGCD_rot
 
-playsound block.snow.place block @a ~ ~ ~
+playsound block.candle.place block @a ~ ~ ~ 1 1
 
 kill @e[type=marker,tag=spawn_BGCD,tag=spawn_BGCD_candy_cane,distance=..1,limit=1,sort=nearest]
