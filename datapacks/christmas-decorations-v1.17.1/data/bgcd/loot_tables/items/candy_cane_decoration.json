@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"bgcd.item.candyCane.decoration\",\"color\":\"dark_green\",\"italic\":false}'},HideFlags:127,CustomModelData:4014016,candyDecor:1b}"
+              "tag": "{display:{Name:'{\"translate\":\"bgcd.item.candyCane.decoration\",\"color\":\"dark_red\",\"italic\":false}'},HideFlags:127,CustomModelData:4014017,candyDecor:1b,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawn_BGCD\",\"spawn_BGCD_candy_cane\"]}}"
             }
           ]
         }

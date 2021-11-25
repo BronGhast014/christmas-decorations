@@ -5,6 +5,7 @@
 ################################################################################
 
 function _give:christmas_decorations/candy_cane
+function _give:christmas_decorations/candy_cane_decoration
 function _give:christmas_decorations/ginger_bread
 function _give:christmas_decorations/tree
 function _give:christmas_decorations/tree_decorations
@@ -16,5 +17,4 @@ function _give:christmas_decorations/garland
 function _give:christmas_decorations/wreath
 function _give:christmas_decorations/green_stocking
 function _give:christmas_decorations/red_stocking
-function _give:christmas_decorations/trophy
 function _give:christmas_decorations/wrench
