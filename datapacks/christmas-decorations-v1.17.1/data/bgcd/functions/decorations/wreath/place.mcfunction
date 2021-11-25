@@ -18,7 +18,7 @@ execute unless block ~ ~ ~-0.1 #bgcd:void align xyz positioned ~0.5 ~ ~0.5 run s
 execute unless block ~0.1 ~ ~ #bgcd:void align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~1 ~ ~ {NoGravity:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["BGCD_needsLight","BGCD_wreath","BGCD_item"],Rotation:[90F,0F],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"carrot_on_a_stick",Count:1,tag:{CustomModelData:4014014}}]}
 
 # down
-execute unless block ~ ~-0.1 ~ #bgcd:void align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~-1.2 ~-0.225 {NoGravity:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["BGCD_needsLight","BGCD_wreath","BGCD_item"],Pose:{Head:[-90f,0f,0f]},DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"carrot_on_a_stick",Count:1,tag:{CustomModelData:4014014}}]}
+execute unless block ~ ~-0.1 ~ #bgcd:void align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~-1.2 ~ {NoGravity:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["BGCD_needsLight","BGCD_wreath","BGCD_item"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"carrot_on_a_stick",Count:1,tag:{CustomModelData:4014017}}]}
 
 
 # sounds
