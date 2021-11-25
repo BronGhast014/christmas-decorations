@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.16.2 +
 # Copyright: November / 2021
-# Discription: moves the ray forward untill it hits a block
+# Description: moves the ray forward untill it hits a block
 ################################################################################
 
 # add to raycount

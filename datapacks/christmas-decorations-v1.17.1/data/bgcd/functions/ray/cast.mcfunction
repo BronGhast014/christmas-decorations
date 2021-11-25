@@ -2,7 +2,7 @@
 # Authors: BronGhast014
 # Version: 1.16.2 +
 # Copyright: November / 2021
-# Discription: casts the ray
+# Description: casts the ray
 ################################################################################
 
 #reset rayCount
