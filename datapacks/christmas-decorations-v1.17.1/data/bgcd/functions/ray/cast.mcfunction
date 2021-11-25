@@ -8,4 +8,4 @@
 #reset rayCount
 scoreboard players set @s BGCD_rayCount 0
 #cast the ray
-execute at @s positioned ~ ~1.5 ~ run function bgcd:ray/loop
+execute at @s anchored eyes run function bgcd:ray/loop
