@@ -117,7 +117,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 16
+              "count": 8
             }
           ]
         },
@@ -133,7 +133,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 64
+              "count": 16
             }
           ]
         }
