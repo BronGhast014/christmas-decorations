@@ -18,3 +18,5 @@ function _give:christmas_decorations/wreath
 function _give:christmas_decorations/green_stocking
 function _give:christmas_decorations/red_stocking
 function _give:christmas_decorations/wrench
+function _give:christmas_decorations/mistletoe
+function _give:christmas_decorations/snow_globe

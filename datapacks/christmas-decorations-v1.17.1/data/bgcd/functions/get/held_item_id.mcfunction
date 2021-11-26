@@ -23,3 +23,6 @@ scoreboard players set @s[nbt={SelectedItem:{tag:{garland1:1b}}}] BGCD_item 12
 scoreboard players set @s[nbt={SelectedItem:{tag:{wreath:1b}}}] BGCD_item 13
 scoreboard players set @s[nbt={SelectedItem:{tag:{stocking1:1b}}}] BGCD_item 14
 scoreboard players set @s[nbt={SelectedItem:{tag:{stocking2:1b}}}] BGCD_item 15
+scoreboard players set @s[nbt={SelectedItem:{tag:{mistletoe:1b}}}] BGCD_item 16
+
+scoreboard players set @s[nbt={SelectedItem:{tag:{snowGlobe:1b}}}] BGCD_item 17

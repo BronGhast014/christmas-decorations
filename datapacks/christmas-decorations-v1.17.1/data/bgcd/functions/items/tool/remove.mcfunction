@@ -14,3 +14,6 @@ execute if entity @s[tag=BGCD_green_stocking] run function bgcd:decorations/stoc
 
 execute if entity @s[tag=BGCD_wreath] run function bgcd:decorations/wreath/remove
 execute if entity @s[tag=BGCD_garland] run function bgcd:decorations/garland/remove
+
+execute if entity @s[tag=BGCD_snowglobe] run function bgcd:decorations/snow_globe/remove
+execute if entity @s[tag=BGCD_mistletoe] run function bgcd:decorations/mistletoe/remove

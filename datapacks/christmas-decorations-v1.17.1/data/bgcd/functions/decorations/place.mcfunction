@@ -17,3 +17,6 @@ execute if entity @s[scores={BGCD_item=13}] run function bgcd:decorations/wreath
 execute if entity @s[scores={BGCD_item=12}] run function bgcd:decorations/garland/place
 execute if entity @s[scores={BGCD_item=14}] run function bgcd:decorations/stocking/place_red
 execute if entity @s[scores={BGCD_item=15}] run function bgcd:decorations/stocking/place_green
+
+execute if entity @s[scores={BGCD_item=16}] run function bgcd:decorations/mistletoe/place
+execute if entity @s[scores={BGCD_item=17}] run function bgcd:decorations/snow_globe/place
