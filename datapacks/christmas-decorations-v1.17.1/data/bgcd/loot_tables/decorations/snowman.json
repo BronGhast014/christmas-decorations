@@ -5,16 +5,18 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "bgcd:items/snowman",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "killer_player",
-              "predicate": {
-                "nbt": "{playerGameType:0}"
-              }
+          "name": "bgcd:items/snowman"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "player": {
+              "gamemode": "survival"
             }
-          ]
+          }
         }
       ]
     }

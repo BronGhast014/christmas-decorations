@@ -5,16 +5,18 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "bgcd:items/tree",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "killer_player",
-              "predicate": {
-                "nbt": "{playerGameType:0}"
-              }
+          "name": "bgcd:items/tree"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "player": {
+              "gamemode": "survival"
             }
-          ]
+          }
         }
       ]
     },
@@ -23,16 +25,18 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "bgcd:items/tree_decorations",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "killer_player",
-              "predicate": {
-                "nbt": "{playerGameType:0}"
-              }
+          "name": "bgcd:items/tree_decorations"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "player": {
+              "gamemode": "survival"
             }
-          ]
+          }
         }
       ]
     }
