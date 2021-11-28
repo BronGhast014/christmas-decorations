@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bgcd:items/candy_cane_decoration"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "player": {
+              "gamemode": "survival"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Christmas Decorations for Minecraft"
+        },
+        "description": {
+            "text": "Installation Complete"
+        },
+        "icon": {
+            "item": "minecraft:structure_void"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "bgcd:textures/ui/snow.png"
+    },
+    "criteria": {
+        "install": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "bgcd:workbench"
+        ],
+        "function": "bgcd:pack/install"
+    }
+}

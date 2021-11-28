@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polar_bear_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"bgcd.item.gift\",\"color\":\"dark_red\",\"italic\":false}'},HideFlags:127,CustomModelData:4014005,gift1:1b,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawn_BGCD\",\"spawn_BGCD_gift\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
