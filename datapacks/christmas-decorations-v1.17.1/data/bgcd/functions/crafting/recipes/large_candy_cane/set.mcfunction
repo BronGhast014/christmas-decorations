@@ -4,5 +4,5 @@
 # Copyright November / 2021
 ################################################################################
 
-loot replace block ~ ~ ~ container.15 loot bgcd:items/tray
-scoreboard players set @s BGCD_tableUsed 10
+loot replace block ~ ~ ~ container.15 loot bgcd:items/candy_cane_decoration
+scoreboard players set @s BGCD_tableUsed 20

@@ -17,5 +17,7 @@ execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=5..11}] positioned ^ ^ ^0.1
 execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=17}] positioned ^ ^ ^0.1 run function bgcd:decorations/place
 execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=12..16}] positioned ^ ^ ^-0.1 run function bgcd:decorations/place
 
+execute as @s[scores={BGCD_rayCount=1111..,BGCD_item=18}] positioned ^ ^ ^-0.1 align xyz positioned ~0.5 ~ ~0.5 run function bgcd:crafting/table/place
+
 # if the ray hasn't hit somthing loop the function again
 execute as @s[scores={BGCD_rayCount=..70}] positioned ^ ^ ^0.1 run function bgcd:ray/loop

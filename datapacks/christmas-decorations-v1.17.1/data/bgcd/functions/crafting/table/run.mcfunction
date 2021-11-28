@@ -23,3 +23,6 @@ function bgcd:crafting/recipes/tree/craft
 function bgcd:crafting/recipes/trophy/craft
 function bgcd:crafting/recipes/wreath/craft
 function bgcd:crafting/recipes/wrench/craft
+function bgcd:crafting/recipes/mistletoe/craft
+function bgcd:crafting/recipes/snowglobe/craft
+function bgcd:crafting/recipes/large_candy_cane/craft

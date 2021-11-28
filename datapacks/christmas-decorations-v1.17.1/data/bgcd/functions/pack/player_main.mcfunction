@@ -5,6 +5,7 @@
 ################################################################################
 
 # run item interactions
+execute as @s[scores={BGCD_craftedBook=1..}] run function bgcd:crafting/replace_book
 execute as @s[scores={BGCD_ateItem=1..}] at @s run function bgcd:items/eat_food
 execute as @s[scores={BGCD_vClick=1..}] at @s run function bgcd:ray/cast
 execute as @s[scores={BGCD_rClick=1..}] at @s run function bgcd:ray/cast

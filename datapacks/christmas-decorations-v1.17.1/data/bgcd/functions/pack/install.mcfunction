@@ -15,6 +15,7 @@ scoreboard objectives add BGCD_vClick minecraft.used:minecraft.structure_void
 scoreboard objectives add BGCD_rClick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add BGCD_eClick minecraft.used:minecraft.polar_bear_spawn_egg
 scoreboard objectives add BGCD_ateItem minecraft.used:minecraft.tropical_fish
+scoreboard objectives add BGCD_craftedBook minecraft.crafted:minecraft.structure_void
 scoreboard objectives add BGCD_item dummy
 scoreboard objectives add BGCD_rot dummy
 scoreboard objectives add BGCD_rnd dummy

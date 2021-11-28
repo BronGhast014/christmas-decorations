@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"bgcd.item.trophy\",\"color\":\"gold\",\"italic\":false}'},HideFlags:127,CustomModelData:4014016,trophy:1b,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawn_BGCD\",\"spawn_BGCD_trophy\"]}}"
+              "tag": "{display:{Name:'{\"translate\":\"bgcd.item.workbench\",\"color\":\"white\",\"italic\":false}'},HideFlags:127,CustomModelData:4014022,workbench:1b,EntityTag:{id:\"minecraft:marker\",Tags:[\"spawn_BGCD\",\"spawn_BGCD_workbench\"]}}"
             }
           ]
         }

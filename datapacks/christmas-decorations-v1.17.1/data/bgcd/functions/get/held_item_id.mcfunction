@@ -26,3 +26,5 @@ scoreboard players set @s[nbt={SelectedItem:{tag:{stocking2:1b}}}] BGCD_item 15
 scoreboard players set @s[nbt={SelectedItem:{tag:{mistletoe:1b}}}] BGCD_item 16
 
 scoreboard players set @s[nbt={SelectedItem:{tag:{snowGlobe:1b}}}] BGCD_item 17
+
+scoreboard players set @s[nbt={SelectedItem:{tag:{workbench:1b}}}] BGCD_item 18
