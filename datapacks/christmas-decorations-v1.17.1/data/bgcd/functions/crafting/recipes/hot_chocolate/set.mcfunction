@@ -4,5 +4,5 @@
 # Copyright November / 2021
 ################################################################################
 
-loot replace block ~ ~ ~ container.15 loot bgcd:items/hot_chocolate
+loot replace block ~ ~ ~ container.15 loot bgcd:items/coco_mug
 scoreboard players set @s BGCD_tableUsed 7
