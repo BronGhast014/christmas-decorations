@@ -9,3 +9,5 @@ summon armor_stand ~ ~ ~ {NoGravity:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["un
 scoreboard players operation @e[type=armor_stand,tag=unsetItem,distance=..0.1] BGCD_rot = @s BGCD_rot 
 
 playsound block.grass.place block @a ~ ~ ~
+
+item replace entity @s weapon.mainhand with air

@@ -4,7 +4,7 @@
 # Copyright November / 2021
 ################################################################################
 
-execute if entity @s[tag=BGCD_gift_model] run function bgcd:decorations/gift/remove
+execute if entity @s[tag=BGCD_gift] run function bgcd:decorations/gift/remove
 
 execute if entity @s[tag=BGCD_mug] run function bgcd:decorations/coco_mug/remove
 execute if entity @s[tag=BGCD_miniTree] run function bgcd:decorations/mini_tree/remove
